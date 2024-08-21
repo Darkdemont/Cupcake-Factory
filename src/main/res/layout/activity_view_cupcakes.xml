@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <!-- First Cupcake Item -->
+    <ImageView
+        android:id="@+id/imageViewCupcake1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/cup_cake_1" />
+
+    <TextView
+        android:id="@+id/textViewCupcakeName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageViewCupcake1"
+        android:layout_marginLeft="10dp"
+        android:text="Cupcake Name 1"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textViewCupcakePrice1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewCupcakeName1"
+        android:layout_toRightOf="@id/imageViewCupcake1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="$1.99"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/buttonAddToCart1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewCupcakePrice1"
+        android:layout_toRightOf="@id/imageViewCupcake1"
+        android:layout_marginLeft="10dp"
+        android:text="Add to Cart"/>
+
+    <!-- Second Cupcake Item -->
+    <ImageView
+        android:id="@+id/imageViewCupcake2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/buttonAddToCart1"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/cup_cake_2" />
+
+    <!-- Repeat the TextViews and Button for the second cupcake, adjusting IDs and layout positions -->
+    <TextView
+        android:id="@+id/textViewCupcakeName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageViewCupcake2"
+        android:layout_alignTop="@id/imageViewCupcake2"
+        android:layout_marginLeft="10dp"
+        android:text="Cupcake Name 2"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textViewCupcakePrice2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewCupcakeName2"
+        android:layout_toRightOf="@id/imageViewCupcake2"
+        android:layout_marginLeft="10dp"
+        android:text="$2.99"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/buttonAddToCart2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewCupcakePrice2"
+        android:layout_toRightOf="@id/imageViewCupcake2"
+        android:layout_marginLeft="10dp"
+        android:text="Add to Cart"/>
+
+    <!-- Third Cupcake Item -->
+    <ImageView
+        android:id="@+id/imageViewCupcake3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/buttonAddToCart2"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/cup_cake_3" />
+
+    <!-- Repeat the TextViews and Button for the second cupcake, adjusting IDs and layout positions -->
+    <TextView
+        android:id="@+id/textViewCupcakeName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageViewCupcake3"
+        android:layout_alignTop="@id/imageViewCupcake3"
+        android:layout_marginLeft="10dp"
+        android:text="Cupcake Name 3"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textViewCupcakePrice3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewCupcakeName3"
+        android:layout_toRightOf="@id/imageViewCupcake3"
+        android:layout_marginLeft="10dp"
+        android:text="$2.99"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/buttonAddToCart3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewCupcakePrice3"
+        android:layout_toRightOf="@id/imageViewCupcake3"
+        android:layout_marginLeft="10dp"
+        android:text="Add to Cart"/>
+
+    <!--4 Cupcake Item -->
+
+    <ImageView
+        android:id="@+id/imageViewCupcake4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/buttonAddToCart3"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/cup_cake_2" />
+
+
+    <TextView
+        android:id="@+id/textViewCupcakeName4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageViewCupcake4"
+        android:layout_alignTop="@id/imageViewCupcake4"
+        android:layout_marginLeft="10dp"
+        android:text="Cupcake Name 4"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textViewCupcakePrice4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewCupcakeName4"
+        android:layout_toRightOf="@id/imageViewCupcake4"
+        android:layout_marginLeft="10dp"
+        android:text="$2.99"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/buttonAddToCart4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewCupcakePrice4"
+        android:layout_toRightOf="@id/imageViewCupcake4"
+        android:layout_marginLeft="10dp"
+        android:text="Add to Cart"/>
+
+
+
+    <!-- 5 Cupcake Item -->
+
+    <ImageView
+        android:id="@+id/imageViewCupcake5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/buttonAddToCart4"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/cup_cake_2" />
+
+
+    <TextView
+        android:id="@+id/textViewCupcakeName5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageViewCupcake5"
+        android:layout_alignTop="@id/imageViewCupcake5"
+        android:layout_marginLeft="10dp"
+        android:text="Cupcake Name 5"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textViewCupcakePrice5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewCupcakeName5"
+        android:layout_toRightOf="@id/imageViewCupcake5"
+        android:layout_marginLeft="10dp"
+        android:text="$2.99"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/buttonAddToCart5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewCupcakePrice5"
+        android:layout_toRightOf="@id/imageViewCupcake5"
+        android:layout_marginLeft="10dp"
+        android:text="Add to Cart"/>
+
+    <!-- 6 Cupcake Item -->
+
+    <ImageView
+        android:id="@+id/imageViewCupcake6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/buttonAddToCart5"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/cup_cake_2" />
+
+
+    <TextView
+        android:id="@+id/textViewCupcakeName6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageViewCupcake6"
+        android:layout_alignTop="@id/imageViewCupcake6"
+        android:layout_marginLeft="10dp"
+        android:text="Cupcake Name 6"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textViewCupcakePrice6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewCupcakeName6"
+        android:layout_toRightOf="@id/imageViewCupcake6"
+        android:layout_marginLeft="10dp"
+        android:text="$2.99"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/buttonAddToCart6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewCupcakePrice6"
+        android:layout_toRightOf="@id/imageViewCupcake6"
+        android:layout_marginLeft="10dp"
+        android:text="Add to Cart"/>
+
+
+    <!-- 7 Cupcake Item -->
+
+    <ImageView
+        android:id="@+id/imageViewCupcake7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/buttonAddToCart6"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/cup_cake_2" />
+
+
+    <TextView
+        android:id="@+id/textViewCupcakeName7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageViewCupcake7"
+        android:layout_alignTop="@id/imageViewCupcake7"
+        android:layout_marginLeft="10dp"
+        android:text="Cupcake Name 7"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textViewCupcakePrice7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewCupcakeName7"
+        android:layout_toRightOf="@id/imageViewCupcake7"
+        android:layout_marginLeft="10dp"
+        android:text="$2.99"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/buttonAddToCart7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewCupcakePrice7"
+        android:layout_toRightOf="@id/imageViewCupcake7"
+        android:layout_marginLeft="10dp"
+        android:text="Add to Cart"/>
+
+
+    <!-- 8 Cupcake Item -->
+
+    <ImageView
+        android:id="@+id/imageViewCupcake8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/buttonAddToCart7"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/cup_cake_2" />
+
+
+    <TextView
+        android:id="@+id/textViewCupcakeName8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageViewCupcake8"
+        android:layout_alignTop="@id/imageViewCupcake8"
+        android:layout_marginLeft="10dp"
+        android:text="Cupcake Name 6"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textViewCupcakePrice8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewCupcakeName8"
+        android:layout_toRightOf="@id/imageViewCupcake8"
+        android:layout_marginLeft="10dp"
+        android:text="$2.99"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/buttonAddToCart8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewCupcakePrice8"
+        android:layout_toRightOf="@id/imageViewCupcake8"
+        android:layout_marginLeft="10dp"
+        android:text="Add to Cart"/>
+
+    <!-- Add ImageView, TextViews, and Button for Cupcake 3, adjusting IDs and layout positions -->
+
+
+
+
+
+</RelativeLayout>
